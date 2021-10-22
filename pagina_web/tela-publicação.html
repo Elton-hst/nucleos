@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Configuração para mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Imports do Materialize -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="css/projeto.css" media="screen,projection" />
+    <title>QuickWork</title>
+  </head>
+<body>
+    <!--menu superior-->
+    <nav class="menu-superior blue">
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo">QuickWork</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="tela_publicacao.html">Publicações de serviços</a></li>
+          <li><a href="tela_principal.html">Vagas</a></li>
+          <li><a href="index.html">Cadastro</a></li>
+        </ul>
+      </div>
+  </nav>
+  <!-- Publicações -->
+  <div class="container">
+    <div class="col s12 m7">
+      <div class="card">
+        <div class="card-image">
+          <img src="img/code.jpg">
+          <span class="card-title"><h1>Programador</h1></span>
+        </div>
+        <div class="card-content">
+          <div class="center-align">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/03Wmi1rXj4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <p>O programador é o profissional que cria, desenvolve 
+            e mantém diferentes tipos de softwares em sistemas amplos 
+            ou para uso em computadores pessoais.</p>
+            <table>
+              <thead>
+                <tr>
+                    <th>Serviços</th>
+                    <th>Tecnologias</th>
+                    <th>Valor da Hora trabalhada</th>
+                </tr>
+              </thead>
+      
+              <tbody>
+                <tr>
+                  <td>páginas web simples</td>
+                  <td>Html, Css, Javascript.</td>
+                  <td>R$ 50,00</td>
+                </tr>
+                <tr>
+                  <td>front-and</td>
+                  <td>Javascript e React</td>
+                  <td>R$ 40,00</td>
+                </tr>
+                <tr>
+                  <td>back-and</td>
+                  <td>Java, Spring Boot e Mysql</td>
+                  <td>R$ 60,00</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+        <div class="card-action">
+          <a href="tela_publicacao.html">tabela de serviços</a>
+          <!-- Modal Trigger -->
+          <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Contato</a>
+
+          <div>
+            <p>Você se interessa pela vaga?</p>
+            <label>
+              <input type="checkbox" />
+              <span>Sim</span>
+            </label>
+            <br>
+            <label>
+              <input type="checkbox" />
+              <span>Não</span>
+            </label>
+          </div>
+                
+          <!-- Modal Structure -->
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <h4>Modal Header</h4>
+              <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+            </div>
+          </div>
+          <h6 class="blue-text">Prazo: 08/09/2021</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--roda pé-->
+  <footer class="page-footer blue">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">conteudo</h5>
+          <p class="grey-text text-lighten-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas ad sit, quod pariatur enim autem voluptates nihil beatae ipsa explicabo facere accusamus eligendi voluptatem vel optio minus asperiores! Esse, atque.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Redes sociais</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" >Instagram</a></li>
+            <li><a class="grey-text text-lighten-3" >Facebook</a></li>
+            <li><a class="grey-text text-lighten-3" >Youtube</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © QuickWork 2021 - made in Recife
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts Materialize -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+</body>
+</html>
