@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Configuração para mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Imports do Materialize -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!-- CSS -->
+  <link type="text/css" rel="stylesheet" href="css/projeto.css" media="screen,projection" />
+  <title>Núcleos</title>
+</head>
+
+<body>
+
+  <!--menu superior-->
+  <header>
+    <nav class="menu-superior green">
+      <div class="nav-wrapper container">
+        <a href="index.html" class="brand-logo">NÚCLEOS</a>
+      </div>
+    </nav>
+  </header>
+</br>
+<h3>Você está doando para a ONG <\id\>: </h3>
+  <div class="row container">
+    <form action="concluido.html" class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Digite aqui o que você deseja doar" id="doacao" type="text" class="validate">
+          <label for="empresa">O que você deseja doar: </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Digite aqui a quantidade da doação" min=1 id="quantidade" type="number" class="validate">
+          <label for="quantidade">Quantidade</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input placeholder="Digite aqui alguma mensagem para aqueles que receberão sua doação" id="mensagem" type="text" class="validate">
+          <label for="mensagem">Mensagem</label>
+        </div>
+      </div>
+	  <input type="submit" value="Cadastrar" />
+    </form>
+  </div>
+
+  <footer class="page-footer green">
+    <div class="footer-copyright">
+      <div class="container">
+      © QuickWork 2021 - made in Recife
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+  <!-- Scripts Materialize -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+</html>
